@@ -4,7 +4,7 @@
 //installs 6.0 kernel on Debian based linux systems
 #!/bin/bash
 sudo apt-get update
-sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc felx bison grub2-common libelf-dev live-tools
+sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex bison grub2-common libelf-dev live-tools
 wget https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.0.tar.xz
 tar xf linux-6.0.tar.xz
 cd linux-6.0
