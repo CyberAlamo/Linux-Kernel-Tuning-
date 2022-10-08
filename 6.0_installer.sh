@@ -10,5 +10,5 @@ tar xf linux-6.0.tar.xz
 cd linux-6.0
 make menuconfig
 sudo make -j 4 && sudo make modules_install -j 4 && sudo make install -j 4
-update-initramfs -c -k 4.7.1   
+update-initramfs -c -k 6.0
 update-grub  
